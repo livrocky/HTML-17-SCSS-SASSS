@@ -17,17 +17,3 @@
   color: dodgerblue;
 }
 /* main */
-.main {
-  min-height: 400px;
-  border: 1px solid #000;
-}
-.main h2 {
-  text-transform: uppercase;
-  font-weight: normal;
-  color: dodgerblue;
-  font-size: 2rem;
-}
-.main p {
-  color: dodgerblue;
-  font-style: italic;
-}
