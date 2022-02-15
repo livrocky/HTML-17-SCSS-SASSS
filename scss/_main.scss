@@ -5,51 +5,24 @@
   background-color: $color;
 }
 
-// /* hero  */
-.hero {
-  min-height: 300px;
-  background-color: $bgColor;
+main {
+  background-color: #935d8c;
+  min-height: 100vh;
+}
 
-  @include centerFlex(tomato);
-
+.main-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  h2 {
-    text-transform: uppercase;
-    font-weight: normal;
-    color: $mainTextColor;
-  }
-  p {
-    color: $mainTextColor;
-  }
-  button {
-    font-size: 25px;
+  justify-content: space-between;
+  .main-nav__link {
+    padding: 25px;
+    background-color: white;
+    display: block;
   }
 }
 
-// /* main */
-.main {
-  min-height: 400px;
-  border: 1px solid #000;
-
-  @include centerFlex(black);
-
-  h2 {
-    text-transform: uppercase;
-    font-weight: normal;
-    color: $mainTextColor;
-    font-size: 2rem;
-  }
-  p {
-    color: $mainTextColor;
-    font-style: italic;
+button {
+  font-size: 50px;
+  &:hover {
+    font-size: 60px;
   }
 }
